@@ -30,8 +30,10 @@ Hasil dari pohon VLSM kemudian didokumentasikan dalam tabel alokasi yang mencaku
 ![vlsm](assets/VLSM.jpg)
 
 4.Implementasi
+
 Dengan tabel VLSM yang telah disusun, kita dapat melakukan konfigurasi IP address pada setiap device di GNS3 sesuai dengan alokasi yang telah ditentukan, memastikan konektivitas antar segmen jaringan berfungsi dengan baik.
 untuk konfigurasi dapat dilihat di folder scripts
+
 ----------------------------------------------------------
 ### Revisi
 Telah dilakukan penyesuaian alokasi IP address pada beberapa subnet karena sebelumnya ditemukan adanya overlap atau tabrakan alokasi network. Penyesuaian ini memastikan setiap segmen jaringan memiliki range IP yang benar-benar unik dan tidak saling tumpang-tindih.
